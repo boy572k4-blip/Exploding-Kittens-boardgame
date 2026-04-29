@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #1B1D1E;
+}
+
+.card-fall {
+    animation: fallIn 200ms ease-out;
+}
+
+@keyframes fallIn {
+    from {
+        transform: rotate3d(1,0,0,80deg) rotate3d(0,1,0,25deg) translateZ(60vh);
+    }
+}
