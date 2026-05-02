@@ -1,0 +1,26 @@
+{
+  "build": {
+    "buildCommand": "npm run build"
+  },
+  "deploy": {
+    "startCommand": "npm start"
+  },
+  "plugins": [],
+  "variables": [
+    {
+      "name": "DISCORD_CLIENT_ID",
+      "value": "",
+      "advanced": false
+    },
+    {
+      "name": "DISCORD_CLIENT_SECRET",
+      "value": "",
+      "advanced": false
+    },
+    {
+      "name": "AUTH_ADMIN",
+      "value": "",
+      "advanced": false
+    }
+  ]
+}
